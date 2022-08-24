@@ -7,7 +7,9 @@ import java.util.List;
  * principio de abstraccion
  */
 public class Octal implements Positional, Convertable {
-    //Se encapsula el atributo "value"
+    /* Se encapsula el atributo "value"
+     * En la línea 43 se hace visible mediante Octal#print
+     */
     private final String value;
 
     public Octal(String value) {

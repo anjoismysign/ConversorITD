@@ -5,7 +5,9 @@ package me.anjoismysign.itd.converter;
  * principio de abstraccion
  */
 public class Binary implements Positional, Convertable {
-    //Se encapsula el atributo "value"
+    /* Se encapsula el atributo "value"
+     * En la línea 39 se hace visible mediante Binary#print
+     */
     private final String value;
 
     public Binary(String value) {
