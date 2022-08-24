@@ -1,6 +1,7 @@
 package me.anjoismysign.itd.converter;
 
 public class Decimal implements Positional {
+    //Se encapsula el atributo "decimal"
     private final int decimal;
 
     public Decimal(int decimal) {

@@ -2,14 +2,19 @@ package me.anjoismysign.itd.converter;
 
 import java.util.List;
 
+/* Mediante la implementacion
+ * de interfaces hace uso del
+ * principio de abstraccion
+ */
 public class Octal implements Positional, Convertable {
-
+    //Se encapsula el atributo "value"
     private final String value;
 
     public Octal(String value) {
         this.value = value;
     }
 
+    //Polimorfismo
     public Octal(Decimal decimal) {
         Binary binary = new Binary(decimal);
         String binaryValue;

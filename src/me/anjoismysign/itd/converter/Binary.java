@@ -1,13 +1,18 @@
 package me.anjoismysign.itd.converter;
 
+/* Mediante la implementacion
+ * de interfaces hace uso del
+ * principio de abstraccion
+ */
 public class Binary implements Positional, Convertable {
-
+    //Se encapsula el atributo "value"
     private final String value;
 
     public Binary(String value) {
         this.value = value;
     }
 
+    //Polimorfismo
     public Binary(Decimal decimal) {
         int decimalValue = decimal.decimalValue();
         StringBuilder binary = new StringBuilder();
