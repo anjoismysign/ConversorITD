@@ -6,7 +6,7 @@ package me.anjoismysign.itd.converter;
  */
 public class Binary implements Positional, Convertable {
     /* Se encapsula el atributo "value"
-     * En la línea 39 se hace visible mediante Binary#print
+     * En la línea 38 se hace visible mediante Binary#print
      */
     private final String value;
 
